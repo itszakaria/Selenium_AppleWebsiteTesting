@@ -41,7 +41,7 @@ public class SelectDriver {
 		
 		Properties prop  = new Properties();
 		try{
-			FileInputStream fis = new FileInputStream("C:\\Users\\itszakaria\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\itsza\\workspace\\appleWebAppDefault\\src\\test\\resources\\config.properties");
 		prop.load(fis);
 		}catch(Exception e) {
 			e.printStackTrace();
